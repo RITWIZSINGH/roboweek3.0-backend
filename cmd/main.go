@@ -14,7 +14,7 @@ import (
 )
 
 func main() {
-	//Initialize Firebase// In main.go
+	//Initialize Firebase
 	opt := option.WithCredentialsFile("./roboweek3-firebase-adminsdk-z27vj-d49ee40fe2.json")
 	app, err := firebase.NewApp(context.Background(), nil, opt)
 	if err != nil {
